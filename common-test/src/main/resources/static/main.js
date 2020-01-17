@@ -8,7 +8,7 @@ app.controller("AppCtlr", function($scope, $http){
 	
 	$http({
 	    method: 'get', 
-	    url: 'api/testing'
+	    url: 'api/quiz'
 	}).then(function (response) {
 		$scope.questions = response.data;
 		$scope.results = angular.copy($scope.questions);		
@@ -32,7 +32,7 @@ app.controller("AppCtlr", function($scope, $http){
 	 $scope.postResults = function(){
 	  $http({
 		  	method: 'post', 
-		    url: 'api/testing',
+		    url: 'api/quiz',
 		    data: angular.toJson($scope.results)
 	    })
 	    .then(function(response) {

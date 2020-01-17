@@ -16,7 +16,7 @@ import com.serjer.repo.ResultsRepo;
 import com.serjer.service.FileReadingService;
 
 @RestController
-@RequestMapping("/api/testing")
+@RequestMapping("/api/quiz")
 public class QuizRestController {
 
 	@Autowired
