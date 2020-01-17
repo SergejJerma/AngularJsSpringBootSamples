@@ -49,7 +49,7 @@ Paleidus programą, atsidaro (http://localhost:8080/) web-forma, kurioje atvaizd
          o Vitalija Katunskytė 
 ```
 Pasirinkus atsakymų variantus ir paspaudus mygtuką "Išsaugoti", rezultatai (klausimai su pasirinktais atsakymais) išsaugomi duomenų bazėje): 
-QUESTION lentelės turinys:
+* QUESTION lentelės turinys:
 ```
 select * from question;
 QUESTION_ID  	QUESTION_BODY  					ANSWER_ID  
@@ -58,13 +58,13 @@ QUESTION_ID  	QUESTION_BODY  					ANSWER_ID
 5		Kas suskaičiavo iki begalybės du kartus?	6
 (3 rows, 15 ms)
 ```
-ANSWER lentelės turinys:
+* ANSWER lentelės turinys:
 ```
 select * from answer;
 ANSWER_ID  	ANSWER_BODY  
-2	400nm
-4	elektronas
-6	Alfa vyras
+2		400nm
+4		elektronas
+6		Alfa vyras
 (3 rows, 10 ms)
 ```
 ## Papildoma info
