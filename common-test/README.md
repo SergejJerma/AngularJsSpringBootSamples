@@ -47,6 +47,7 @@ Paleidus programą, atsidaro (http://localhost:8080/) web-forma, kurioje atvaizd
          o Klintas Eastwoodas
          o Alfa vyras
          o Vitalija Katunskytė 
+mygtukas:"Išsaugoti"
 ```
 Pasirinkus atsakymų variantus ir paspaudus mygtuką "Išsaugoti", rezultatai (klausimai su pasirinktais atsakymais) išsaugomi duomenų bazėje): 
 * QUESTION lentelės turinys:
