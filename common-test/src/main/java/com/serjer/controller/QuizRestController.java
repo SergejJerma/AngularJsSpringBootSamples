@@ -26,7 +26,7 @@ public class QuizRestController {
 	private ResultsRepo resultsRepo;
 
 	@GetMapping
-	public List<Item> getAllEmployees() {
+	public List<Item> getAllItems() {
 		return fileReadingService.readingJsonFile();
 	}
 	
