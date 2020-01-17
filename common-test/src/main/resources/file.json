@@ -1,0 +1,27 @@
+[
+	{
+		"question": "Žalios spalvos bangos ilgis?",
+		"answers": [
+			"300nm",
+			"400nm",
+			"500nm"
+				]
+	},
+	{
+		"question": "Kokios dalelės įeina į atomo branduolį?",
+		"answers": [
+			"elektronas",
+			"mezonas",
+			"bizonas",
+			"kojotas"
+				]
+	},
+	{
+		"question": "Kas suskaičiavo iki begalybės du kartus?",
+		"answers": [
+			"Klintas Eastwoodas",
+			"Alfa vyras",
+			"Vitalija Katunskytė"
+				]
+	}
+]

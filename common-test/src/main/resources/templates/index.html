@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Testing</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+ <script th:src="@{/main.js}"></script>
+ 
+ <script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-theme.min.css">
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+<body ng-app="commonTest" ng-controller="AppCtlr">
+ <div class="container">
+  <form class="form-group" method="post">
+   <h5 align="center"><b>Bendras Testas</b><h5>
+    <ul class="list-group">
+      <li class="list-group-item" ng-repeat="question in questions">
+       <strong>{{question.question}}</strong>
+       <ul class="list-group" id="question_{{$parent.$index}}">
+        <li class="list-group-item" ng-repeat="answer in question.answers">
+          <label  for="question_{{$parent.$index}}_answer_{{$index}}">
+            <input type="radio" id="question_{{$parent.$index}}_answer_{{$index}}" 
+            ng-model="answers[$parent.$index]" value="{{answer}}"  name="question_{{$parent.$index}}" required>&nbsp{{answer}}
+            </input>
+          </label>
+        </li>
+       </ul>
+      </li>
+    </ul>
+   <button class="btn btn-primary" type="submit" ng-click="saveAnswers()">Išsaugoti</button>
+  </form>
+ </div>
+</body>
+</html>
