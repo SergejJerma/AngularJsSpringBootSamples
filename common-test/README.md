@@ -1,4 +1,4 @@
-# Testo forma
+# Quiz forma
 
 Programa sukuria paprasta web-formą su klausimais bei atsakymų variantais
 
