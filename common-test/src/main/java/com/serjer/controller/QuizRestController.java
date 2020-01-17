@@ -17,7 +17,7 @@ import com.serjer.service.FileReadingService;
 
 @RestController
 @RequestMapping("/api/testing")
-public class TestingRestController {
+public class QuizRestController {
 
 	@Autowired
 	private FileReadingService fileReadingService;
