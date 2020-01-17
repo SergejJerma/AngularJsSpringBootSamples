@@ -29,7 +29,7 @@ Programoje yra trys POJO klasės - Question, Answer, Item.
 
 ## Programos veikimas
 
-Paleidus programą, atsidaro (http://localhost:8080/) web-forma, kurioje atvaizduojami iš [file.json] (https://github.com/SergejJerma/AngularJsSpringBootSamples/blob/master/common-test/src/main/resources/file.json) nuskaityti klausimai su atsakymų variantais:
+Paleidus programą, atsidaro (http://localhost:8080/) web-forma, kurioje atvaizduojami iš [file.json](https://github.com/SergejJerma/AngularJsSpringBootSamples/blob/master/common-test/src/main/resources/file.json) nuskaityti klausimai su atsakymų variantais:
 
 ```
 	Bendras Testas
