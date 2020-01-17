@@ -31,7 +31,7 @@ public class QuizRestController {
 	}
 	
 	@PostMapping
-    public void saveResults(@RequestBody List<Item> results) {
+    public void saveQuizResults(@RequestBody List<Item> results) {
 		results.stream()
 			   .forEach((e)->resultsRepo.save(new Question(e.getQuestion(),
 					   									  new Answer(e.getAnswers().get(0)))));
