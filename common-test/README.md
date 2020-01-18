@@ -4,7 +4,7 @@ Programa sukuria paprasta web-formą su klausimais bei atsakymų variantais
 
 ## Pradžia
 
-Aplikacija paleidžiamas iš .jar failo
+Aplikacija paleidžiama iš .jar failo
 * [quiz.jar](https://we.tl/t-OMd9xN1lJe) 
 ```
 java -jar quiz.jar
