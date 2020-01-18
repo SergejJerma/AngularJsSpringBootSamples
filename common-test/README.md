@@ -24,7 +24,7 @@ AngularJS
 ```
 ## Klasės/Ryšiai
 Programoje yra trys POJO klasės - Question, Answer, Item.
-* Question -> Answer (@OneToOne)
+* Question -> Answer (@OneToOne), naudojamos rezultatų saugojimui.
 * Item: naudojama JSON objektų skaitymui
 
 ## Programos veikimas
